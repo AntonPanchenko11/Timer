@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.none{
+    display: none;
+}
+
+body{
+    display:flex;
+    align-items: center;
+    background-color: rgb(44, 78, 68);
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 300px 0 0 450px;
+    width: 700px;
+}
+
+#watch{
+    display: flex;
+    color: white;
+    font-size: 100px; 
+}
+
+p{
+    color: white;
+}
+
+.interval {
+    color: white;
+    margin: 15px 0;
+}
+
+.function{
+    display: flex;
+    justify-content: space-evenly;
+    width: 700px;
+    margin-top:50px ;
+}
+
+input{
+    
+    color: rgb(44, 78, 68);
+    font-weight: 400;
+    text-decoration: none;
+    user-select: none;
+    outline: none;
+    transition: 0.2s;
+    border-radius: 8px;
+    font-size: 20px;
+    width: 130px;
+    height: 40px;
+} 
+
+input:hover { 
+    color:white;
+    background: rgb(44, 78, 68);
+}
+
+input:active { background: white; }
+
+#arowUp{
+    display: flex;
+    background: rgb(44, 78, 68) ; 
+    color: white;
+    justify-content: space-between;
+    
+}
+
+button{
+    margin: 0 110px 0 0; 
+    width: 30px;
+    font-size: 20px;
+    height: 30px;
+    border-radius: 15px;
+    color: rgb(44, 78, 68);
+    font-weight: 400;
+    text-decoration: none;
+    user-select: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+button:hover { 
+    color:white;
+    background: rgb(44, 78, 68);
+}
+
+button:active { background: white; }
+
+#intervalDesck{
+    margin: 100px 0 0 50px;
+}
+

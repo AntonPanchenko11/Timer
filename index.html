@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Timer/style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="arowUp">
+            <button id="houreUp" class="none">+</button>
+            <button id="minetUp" class="none">+</button>
+            <button id="secondUp" class="none">+</button>    
+        </div>
+
+        <h1 id="watch">0:00:00</h1>
+
+        <div class="arowDown">
+            <button id="houreDown" class="none">-</button>
+            <button id="minetDown" class="none">-</button>
+            <button id="secondDown" class="none">-</button>
+        </div>
+
+        <div class="function">
+            <input type="button" id="timer" value="Таймер">
+            <input type="button" id="stopwatch" value="Секундомер">
+
+            <input type="button" id="interval" class="none" value="Интервал">
+            
+            <input type="button" id="reset" class="none" value="Заново">
+
+            <input type="button" id="pause" class="none" value="Стоп">
+            <input type="button" id="start" class="none" value="Старт">
+        </div>
+    </div>
+
+    <div id="intervalDesck">
+    </div>
+
+    <script src="/Timer/script.js"></script>
+</body>
+</html>
